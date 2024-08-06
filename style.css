@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #282c34; 
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.project{
+    text-align: center; 
+}
+
+.color{
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table{
+    margin: 20px auto; 
+    width: 60%;
+}
+
+th, td{
+    padding: 15px;
+    border: 1px solid white; 
+    text-align: center; 
+}
+
+th{
+    background-color: #444; 
+}
